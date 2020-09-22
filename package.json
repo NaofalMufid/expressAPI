@@ -1,0 +1,28 @@
+{
+  "name": "express-api-crud",
+  "version": "1.0.0",
+  "description": "Project API CRUD Node Express with db MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "sql",
+    "mysql",
+    "database"
+  ],
+  "author": "skrimcair",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
